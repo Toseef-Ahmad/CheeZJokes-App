@@ -1,0 +1,48 @@
+.spinner {
+  font-size: 200px;
+  display: flex;
+  text-align: center;
+  position: absolute;
+  flex-wrap: wrap;
+  -ms-flex-align: center;
+  margin-left: 40%;
+  margin-top: 150%;
+}
+
+.container {
+  display: flex;
+  /* width: 80%; */
+  height: 90%;
+}
+
+.sidebar {
+  background: #9575cd;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  text-align: center;
+}
+
+.main {
+  height: 80%;
+  width: 70%;
+  overflow: auto;
+  align-self: center;
+}
+
+.title {
+  font-size: 4rem;
+  margin: 2rem;
+  color: white;
+  font-weight: 400;
+  letter-spacing: 0rem;
+}
+
+.sidebar img {
+  width: 50%;
+  border: 5px solid #9575ad;
+  border-radius: 50%;
+  border-color: #9575cd;
+}

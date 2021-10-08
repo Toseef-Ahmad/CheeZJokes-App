@@ -1,0 +1,12 @@
+.Emojy {
+  font-size: 40px;
+  display: flex;
+  align-content: center;
+  margin-right: 30px;
+}
+
+.Emojy:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+  transform: translate(10px);
+}
